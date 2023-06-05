@@ -2,6 +2,7 @@
 
 package com.gearsoftca.tiptimev2
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -174,6 +175,7 @@ fun RoundTheTipRow(
     }
 }
 
+@SuppressLint("SuspiciousIndentation")
 private fun calculateTip(
     amount: Double,
     tipPercent: Double = 15.0,
